@@ -62,7 +62,7 @@ function images() {
 // CSS task
 function css() {
   return gulp
-    .src("./src/sass/**/*.scss")
+    .src("./src/sass/style.scss")
     .pipe(plumber())
     .pipe(sass({ outputStyle: "expanded" }))
     .pipe(gulp.dest("./dist/css/"))
