@@ -6304,7 +6304,7 @@ header .scroll a {
 
 @media screen and (min-width: 768px) {
   .content .plantes-container {
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, min-content);
     grid-gap: 15px;
   }
